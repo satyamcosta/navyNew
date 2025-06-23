@@ -1,0 +1,21 @@
+
+  
+  .add-role-dialog .MuiDialog-paper {
+    width: 500px !important;
+    margin: 32px;
+    position: relative;
+    overflow-y: auto;
+}
+
+ .roles-map li {display:inline-block}
+ .roles-map li:first-child:before {
+  content: '';
+  font-size: 2em;
+}
+ 
+
+ .roles-map li:before {
+  content: '|';
+  font-size: 2em;
+  margin: 0 3px;
+}

@@ -1,0 +1,885 @@
+.viewstatus .MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 24px !important;
+}
+
+.actionpoint .MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 24px !important;
+}
+
+.actionpoint li {
+  list-style: none !important;
+}
+
+.MuiTableContainer-root {
+  overflow-x: auto;
+}
+
+.action_point_send_or {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action_point_send_or>span:nth-child(1) {
+  position: absolute;
+  width: 108%;
+  height: 1px;
+  background-color: #0000004a;
+}
+
+.action_point_send_or>span:nth-child(2) {
+  position: relative;
+  background: rgb(53, 76, 100);
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+/* .actionpoint .MuiDialogActions-root {
+  flex: 0 0 auto;
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  justify-content: flex-end;
+} */
+
+/* .view-details .MuiDrawer-paperAnchorRight {
+  left: auto;
+  width: 100% !important;
+  right: 0;
+} */
+/* .view-details .MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  width: 100% !important;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+} */
+
+.hide1 {
+  list-style: none;
+  padding: 10px 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  cursor: pointer;
+  color: #f9f9f9;
+  background-color: hsl(39, 100%, 63%);
+  transition: background-color 0.4s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0 8px 8px 0;
+  font-family: "UnBatang";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  /* text-shadow: 1px 1px 2px #000000; */
+}
+
+.hide {
+  list-style: none;
+  padding: 10px 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  cursor: pointer;
+  color: #f9f9f9;
+  background-color: rgb(204, 204, 204);
+  transition: background-color 0.4s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0 8px 8px 0;
+  font-family: "UnBatang";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  /* margin-right: 1rem; */
+}
+
+ul {
+  /* margin-top: 3.5rem /!important; */
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin-top: 2.2rem;
+}
+
+.CreateButton {
+  border-color: rgb(5 100 200);
+  border-radius: 1rem;
+  outline: rgb(0, 1, 2);
+  width: 6rem;
+  border: 1px solid rgb(5 100 200) blue;
+  /* grid-column: 2; */
+  justify-self: end;
+  background-color: rgb(187, 184, 184);
+}
+
+.CreateButton:hover {
+  background-color: rgb(5 100 200) !important;
+  color: #f9f9f9;
+}
+
+.updateStatus_dialoge .MuiDialogContent-dividers {
+  padding: 16px 24px;
+  height: 377px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.add-task-btn .MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: 6 !important;
+}
+
+.add-task-btn .MuiDialog-paperScrollPaper {
+  display: flex;
+  max-height: calc(100% - 10px);
+  flex-direction: column;
+  overflow-y: auto !important;
+}
+
+.add-task-btn .MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 24px;
+}
+
+.add-task-btn .MuiDialog-paperWidthSm {
+  max-width: 700px !important;
+  overflow: hidden;
+}
+
+.add-task-btn .MuiDialogContent-dividers {
+  padding: 12px 24px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  overflow: hidden !important;
+}
+
+input[type="file" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  display: none;
+  align-items: baseline;
+  color: inherit;
+  text-overflow: ellipsis;
+  white-space: pre;
+  text-align: start !important;
+  padding: initial;
+  border: initial;
+  overflow: hidden !important;
+}
+
+.fileupload label {
+  cursor: default;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  color: #fff !important;
+  float: left;
+  text-align: center !important;
+  padding: 6px !important;
+  background-color: #3e8fe5 !important;
+}
+
+.active {
+  background-color: rgba(174, 174, 174, 0.36);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.statustab .MuiTab-textColorPrimary.Mui-selected {
+  color: #fff !important;
+  background: #354c64 !important;
+  border-radius: 10px !important;
+}
+
+.statustab .css-1bv3qlh-MuiPaper-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  padding: 0 1rem !important;
+  border: 0;
+  background: white;
+}
+
+.MuiTabs-scroller .MuiTabs-fixed span {
+  display: none !important;
+}
+
+.updateStatus .MuiAppBar-colorPrimary {
+  color: #ccc;
+  margin-left: 0px !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.updateStatus .MuiDialog-paperWidthSm {
+  min-width: 721px !important;
+}
+
+.pdfViwertable .MuiDialogContent-root {
+  flex: 1 1 auto;
+  padding: 0 !important;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pdfViwertable .MuiDialogContent-dividers {
+  /* padding: 0px 24px !important; */
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.pdfViwertable .MuiListItem-gutters {
+  padding-left: 8px !important;
+  /* padding-right: 50px !important; */
+}
+
+.pdfViwertable .DocumentContainer {
+  height: 500px !important;
+}
+
+.header-tab .MuiPaper-elevation.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+.header-tab .MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: inherit !important;
+}
+
+.header-tab .MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+.assign-further .MuiDialog-paperWidthSm {
+  min-width: 721px !important;
+}
+
+.pdfViwertable .MuiTypography-displayBlock {
+  display: block;
+  margin-left: 10px !important;
+}
+
+/* material ui table changes  end*/
+
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #787474;
+}
+
+/* .MuiTabs-fixed > span {
+  height: 100% !important;
+  color: #fff;
+  border-radius: 1rem;
+} */
+
+.react-swipeable-view-container>div {
+  overflow: hidden !important;
+}
+
+/* .inbox-table .e-grid .e-gridheader {
+  border-radius: 30px 0 30px 0 !important;
+  border-top: none;
+} */
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #787474;
+}
+
+.open-task .css-8ce1ak-MuiPaper-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: none !important;
+  transition: all 150ms ease-in-out;
+  padding: 0rem 1rem !important;
+  border: 0;
+  background: white;
+}
+
+.previous_status .css-8ce1ak-MuiPaper-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: none !important;
+  transition: all 150ms ease-in-out;
+  padding: 1rem 1rem 0rem 1rem !important;
+  border: 0;
+  background: white;
+}
+
+.open-task .MuiPaper-elevation2 {
+  box-shadow: none !important;
+}
+
+.viewstatus .MuiDialog-paperWidthSm {
+  min-width: 900px !important;
+}
+
+.submitButton:hover {
+  background-color: rgb(5 100 200) !important;
+  color: #f9f9f9;
+}
+
+.send_dialog>h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.viewstatus .MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 24px !important;
+}
+
+.user_status .MuiDialog-paperWidthSm {
+  min-width: 700px;
+}
+
+.status_updated_tome_table.head {
+  padding: 0.4rem 0.5rem;
+  background: #b1b1b15c;
+}
+
+.status_updated_tome_table.body {
+  padding: 0.6rem 0rem;
+}
+
+.active {
+  background-color: #6fe1e124;
+}
+
+/* close icons view detaild table */
+
+.view-details-close-icons-button {
+  position: absolute !important;
+  right: 1rem !important;
+  top: -2.5rem !important;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+.view-details-close-icons-button:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  transform: scale(0.8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.view-details-close-icons-button:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+.view-details-close-icons-button:hover {
+  background-color: transparent;
+  transform: rotate(90deg);
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.view-details-dialog .MuiDialogContent-root {
+  flex: 1 1 auto !important;
+  padding: 2px 2px !important;
+  overflow: hidden !important;
+}
+
+.taskIconCon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+.taskIconCon:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+.taskIconCon:hover {
+  background-color: transparent;
+  transform: rotate(90deg);
+  cursor: pointer;
+  box-shadow: none;
+}
+
+/* assigner status */
+
+.assigner-tab .MuiDialog-paperWidthSm {
+  min-width: 700px !important;
+  height: 29rem !important;
+}
+
+.status_to_assigner .MuiDialog-paperWidthSm {
+  min-width: 700px !important;
+}
+
+.date-picker .MuiInputBase-root {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 14px;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  width: 317px;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+}
+
+.date-picker .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  /* padding: 4px 0 5px; */
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  /* height: 1.4375em; */
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+  padding: 9px 14px !important;
+  overflow: hidden !important;
+  padding-right: 0;
+}
+
+.date-picker .css-1xhypcz-MuiStack-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden !important;
+  padding-top: 8px !important;
+}
+
+/*------------------- due Date calander and date picker-------------------------- */
+
+.daterangepicker-control-section {
+  width: 246px;
+  height: 36px;
+  padding-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 4px;
+}
+
+.custom-date-range-picker .e-date-wrapper .e-input-group input {
+  border: 1px solid #ccc;
+  /* Add border to input field */
+  border-radius: 4px;
+  /* Optional: Add border-radius for rounded corners */
+  padding: 4px;
+  /* Optional: Add padding for better appearance */
+}
+
+.e-input-group:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper:not(.e-float-icon-left) {
+  border-bottom: none;
+}
+
+/* --------------------date picker */
+
+/* vertical priority  */
+.priority-timeline .css-1ms7hib-MuiTimelineItem-root {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 0px !important;
+}
+
+.priority-timeline .css-1ms7hib-MuiTimelineItem-root::before {
+  content: "";
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 !important;
+}
+
+.priority-timeline .css-628fjv {
+  list-style: none;
+  display: flex;
+  position: relative;
+  min-height: 0px !important;
+}
+
+/* ---------------------react tab ------------------------------- */
+
+.view-details-tab .react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+
+  margin-left: 0px !important;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #f5f5f5 !important;
+  color: #000 !important;
+}
+
+.view-details-tab .react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: -2px 0 0px !important;
+  padding: 0;
+}
+
+.view-details-tab .react-tabs__tab--selected {
+  background-color: gray !important;
+  color: whitesmoke !important;
+}
+
+/* table row text */
+.table-row-text {
+  color: #000 !important;
+  font-size: 14px !important;
+}
+
+/* .css-1omuo8w-MuiToolbar-root {
+  display: none !important;
+  padding-left: 24px;
+  padding-right: 24px;
+} */
+
+#material-table .MuiTableRow-root:hover .MuiTableCell-root:not(.MuiTableCell-head) {
+  background-color: #ffd394 !important;
+}
+
+/* full screen dialog  */
+
+.dialog-wrapper .MuiDialog-paperFullScreen {
+  width: 99% !important;
+  height: 98.5% !important;
+  margin: 0;
+  max-width: 100%;
+  max-height: none;
+}
+
+.dialog-wrapper .MuiPaper-rounded {
+  border-radius: 20px !important;
+}
+
+/* full screen dialog  close icon */
+.icons-button {
+  position: absolute !important;
+  right: -1rem !important;
+  top: -1rem;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+.icons-button:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttons {
+  /* margin: 10%; */
+  text-align: center;
+}
+
+.buttons button {
+  min-width: 80px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  box-shadow: 0px 1px 4px #000000 !important;
+  position: relative;
+}
+
+.buttons button span {
+  background: rgb(230, 81, 71);
+  border-radius: 50%;
+  min-width: 20px;
+  min-height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-0%, -15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.previous_status_table .css-8ce1ak-MuiPaper-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  padding: 0rem 1rem;
+  border: 0;
+  background: white;
+}
+
+.previous_status_table .MuiPaper-elevation2 {
+  box-shadow: none !important;
+}
+
+.previous_status .css-9yzso9 {
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 4px;
+  box-shadow: none !important;
+  transition: all 150ms ease-in-out 0s;
+  padding: 0rem 1rem;
+  border: 0px;
+  background: white;
+}
+
+.previous_status .MuiPaper-elevation2 {
+  box-shadow: none !important;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+  height: 25px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/* .btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+} */
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background: linear-gradient(#ffbd42, #ffbd52bb)
+}
+
+.btn-hover.color-11 {
+  /* background-image: linear-gradient(
+    to right,
+    #2c7fa3,
+    #9cd7e0,
+    #8df1b3,
+    #ff3b3b
+  ); */
+  background: linear-gradient(#3243a4, #0370a8)
+}
+
+.btn-hover.color-1:hover {
+  background: linear-gradient(#ffbd52bb, #000)
+}
+
+.btn-hover.color-11:hover {
+  background: linear-gradient(#1393d5, #000)
+}
+
+/* .btn-hover.color-2 {
+  background-image: linear-gradient(
+    to right,
+    #ffe58f,
+    #ff9461,
+    #ffb9ca,
+    #ffab7e
+  );
+  box-shadow: 0 4px 15px 0 rgba(255, 229, 143, 0.75);
+}
+.btn-hover.color-3 {
+  background-image: linear-gradient(
+    to right,
+    #a7b7f2,
+    #b095d0,
+    #a5c3f4,
+    #c084f6
+  );
+  box-shadow: 0 4px 15px 0 rgba(167, 183, 242, 0.75);
+} */
+/* 
+.btn-hover.color-4 {
+  background-image: linear-gradient(
+    to left,
+    #fcc9d3,
+    #ffd6b4,
+    #ffcfb3,
+    #ffbaa8
+  );
+  box-shadow: 0 4px 15px 0 rgba(252, 201, 211, 0.75);
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(
+    to right,
+    #0ba360,
+    #3cba92,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btn-hover.color-6 {
+  background-image: linear-gradient(
+    to right,
+    #009245,
+    #fcee21,
+    #00a8c5,
+    #d9e021
+  );
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.btn-hover.color-7 {
+  background-image: linear-gradient(
+    to right,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-hover.color-8 {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+.btn-hover.color-9 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.btn-hover.color-10 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+} */
+
+.login-disable-btn {
+  color: #ffffff !important;
+}

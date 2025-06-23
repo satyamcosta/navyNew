@@ -1,0 +1,65 @@
+.loading-shading-mui {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(134, 133, 133, 0.3);
+  z-index: 80;
+}
+
+.loading-light-mui {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 80;
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+.card-header {
+  padding: 4px 1rem !important;
+  border-bottom: 1px solid #80808057;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid #80808057;
+}
+
+.card-detail-body {
+  padding: 0 !important;
+}
+
+#material-table
+  .MuiTableRow-root:hover
+  .MuiTableCell-root:not(.MuiTableCell-head) {
+    background-color: #ffd394 !important;
+}
+
+#mrt-admin-section .Mui-TableHeadCell-Content-Wrapper.MuiBox-root,
+#mrt-admin-series .Mui-TableHeadCell-Content-Wrapper.MuiBox-root {
+  text-transform: uppercase;
+  padding-bottom: 0.4rem !important;
+}
+
+.secIcons {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.sectionHeader {
+  padding: 6px 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

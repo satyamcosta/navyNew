@@ -1,0 +1,67 @@
+.loading-shading-mui {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(134, 133, 133, 0.3);
+  z-index: 80;
+}
+
+.loading-light-mui {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 80;
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+#material-table
+  .MuiTableRow-root:hover
+  .MuiTableCell-root:not(.MuiTableCell-head) {
+    background-color: #ffd394 !important;
+}
+
+.help-status .status {
+  padding: 2px 14px;
+  font-size: 0.7rem;
+  border-radius: 12px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 62px;
+}
+
+.dept-info-con {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.dept-info-con .dept-info-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dept-info-con .dept-info-row span:nth-child(1) {
+  font-size: 1.2rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+
+.dept-info-con .dept-info-row span:nth-child(2) {
+  width: 50%;
+  text-align: end;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}

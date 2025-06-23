@@ -1,0 +1,23 @@
+########### STEPS #############
+
+1. take 230:  root, redhat
+
+2. drag and drop build folder in frontend directory
+
+3. docker build -t frontend-9 .
+
+4. docker save -o frontend-latest-9.tar localhost/frontend-9:latest  (IMAGE HAS BEEN CREATED )
+
+5. Put the image frontend-latest-9.tar in 164
+ scp frontend-latest-9.tar root@159.12.45.164:/root/daily-update  ( NO LONGER NEEDED GO TO STEP 7 )
+6. Take 164
+ docker load -i frontend-latest-9.tar
+
+7.  docker tag localhost/frontend-9 registry.ocp4.navy.mil:8443/openshift/eoffice/frontend-contentu:7 (new tag no)
+
+8. docker push registry.ocp4.navy.mil:8443/openshift/eoffice/frontend-contentu:7
+
+9. Now change the tag no in contentu or eo frontend-deployment
+
+
+ 

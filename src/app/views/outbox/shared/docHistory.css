@@ -1,0 +1,7 @@
+.MuiTimelineItem-missingOppositeContent:before {
+  flex: 0 !important;
+}
+
+.history-timeline .MuiTimelineItem-root{
+  min-height: auto !important;
+}

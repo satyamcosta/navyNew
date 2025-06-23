@@ -1,0 +1,31 @@
+.roles-table-header {
+  border: 1px solid #8080805c;
+  border-width: 1px 0px 0px 0px;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.roles-table-header div:nth-child(1) {
+  width: 5% !important;
+  padding-left: 10px;
+  padding: 0.5rem 0.5rem;
+}
+
+.roles-table-header div:nth-child(2) {
+  width: 20% !important;
+  padding: 0.5rem 0.5rem;
+}
+.roles-table-header div:nth-child(3) {
+  width: 45% !important;
+  padding: 0.5rem 0.5rem;
+}
+
+.roles-table-header div:nth-child(4) {
+  width: 15% !important;
+  padding: 0.5rem 0.5rem;
+}
+.roles-table-header div:nth-child(5) {
+  width: 15% !important;
+  padding: 0.5rem 0.5rem;
+}

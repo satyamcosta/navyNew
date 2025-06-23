@@ -1,0 +1,10 @@
+{
+  "appName": "eOffice",
+  "hideRoutes": [
+    "/eoffice/dms/DmsFolderStructure/dmsTable",
+    "/eoffice/search",
+    "/eoffice/Meeting/meetingschedule",
+    "/eoffice/rti/file",
+    "/eoffice/searchprime"
+  ]
+}
