@@ -565,8 +565,7 @@ const LoginPage = (props) => {
             {/* <iframe className="iframe-model" src="http://kibana-eo.apps.ocp4.pacosta.com/app/dashboards#/view/1bdbb3d0-41d8-11f0-9927-bb96d6d2aac9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true" ></iframe> */}
             {/* <iframe className="iframe-model" src="http://159.12.45.172:30819/app/dashboards#/view/589e1c20-3bbd-11f0-b086-8350c5ec1e9c?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true" ></iframe> */}
             <iframe className="iframe-model"  src="http://kibana-test.apps.ocp4.pacosta.com/app/dashboards#/view/1dd8bed0-3ba2-11f0-8e82-75e90817a1db?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true" ></iframe>
-            {/* <iframe  className="iframe-model" src="http://kibana-eo.apps.ocp4.navy.mil/app/dashboards#/view/589e1c20-3bbd-11f0-b086-8350c5ec1e9c?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Fd%2Cto%3Anow))&show-time-filter=true"></iframe> */}
-            <span className="form-border"></span>
+         
           </div>
         </div>
       )}
